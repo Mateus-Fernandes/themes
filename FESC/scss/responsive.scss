@@ -1,0 +1,151 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    a.navbar-brand img {
+        width: 71%;
+    }
+    .title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+    }
+    .a_fesc {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .a_fesc .grid {
+        display: block;
+        text-align: center;
+        p {
+            margin-bottom: 20px;
+        }
+    }
+    .conheca_fesc .video_area {
+        padding: 0 0px;
+        margin-bottom: 70px;
+    }
+    .nossas_solucoes {
+        padding-top: 76px;
+        .subtitle {
+            padding-left: 0;
+        }
+    }
+    .lista_solucoes .col-md-4 {
+        margin-bottom: 36px;
+    }
+    .nossas_solucoes .open_solucao .left_solucao .texto_left {
+        padding: 0 6px;
+        padding-top: 57px;
+        padding-bottom: 26px;
+        text-align: center;
+    }
+    .nossas_solucoes .open_solucao {
+        margin-top: 22px;
+    }
+    .nossas_solucoes .open_solucao:after {
+        display: none;
+    }
+    .nossas_solucoes .open_solucao .right_solucao {
+        align-items: center;
+        text-align: center;
+        padding-top: 18px;
+    }
+    .nossas_solucoes .open_solucao .left_solucao ul li {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .depoimentos {
+        margin-top: 70px;
+        .title {padding-top: 80px;}
+    }
+    .slick-prev {
+        left: 10px;
+        z-index: 10;
+        &:before {color: #244D8A;    font-size: 30px;}
+    }
+    .slick-next {
+        right: 20px;
+        z-index: 10;
+        &:before {color: #244D8A;    font-size: 30px;}
+    }
+    .depoimentos .slick-list {
+        margin: 0 6%;
+    }
+    .depoimentos .slick-next {
+        right: 5px;
+    }
+    .depoimentos .slick-prev {
+        left: -7px;
+    }
+    .premios {
+        margin-top: 119px;
+        .title {
+            margin-bottom: 30px;
+            margin-top: 60px;
+        }
+        .texto_premio {
+            text-align: center;
+        }
+        .slick-list {
+            margin: 0 42px;
+        }
+    }
+    .linkedin {
+        margin-top: 57px;
+        padding-bottom: 90px;
+    }
+    .contato:after {
+        display: none;
+    }
+    .contato .left_contato {
+        background: #244D8A;
+        padding-top: 116px;
+        padding-bottom: 40px;
+    }
+    .contato .left_contato p {
+        margin-bottom: 57px;
+    }
+    .contato .form_contato {
+        padding-top: 46px;
+        padding-bottom: 74px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contato .left_contato h2 {
+        font-size: 35px;
+    }
+    .contato .left_contato .contato_icon a h3 {
+        font-size: 24px;
+        span {
+            font-size: 13px;
+        }
+    }
+    #map {
+        height: 350px;
+    }
+    footer .top_footer {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    footer .top_footer .trabalhe {
+        font-size: 15px;
+    }
+    footer .top_footer h3 {
+        text-align: center;
+        margin-bottom: 27px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .right_bot img {
+        width: 103%;
+    }
+    .lista_solucoes .slick-list {
+        margin: 0 10px;
+    }
+}
